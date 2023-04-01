@@ -1,11 +1,13 @@
 # To Do List
 
-![Homepage Preview]()
+https://todo.kimuramegumi.site/
+
+![Homepage Preview](./asset/img/screen.png)
 
 ## Brief
 
 Functional todo list with built-in database.
-Personal mini project to test supabase.
+Personal mini full stack project.
 
 ## Built With
 
