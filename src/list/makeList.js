@@ -37,7 +37,7 @@ export const makeList = async () => {
       const editTd = document.createElement("td");
 
       editTd.append(editBtn);
-      row.append(id, name, category, description, status, deleteTd, editTd);
+      row.append(name, category, description, status, deleteTd, editTd);
       tbody.prepend(row);
 
       total();
