@@ -9,8 +9,6 @@ export const makeList = async () => {
 
     data.forEach((item) => {
       const row = document.createElement("tr");
-      const id = document.createElement("td");
-      id.innerText = item.id;
       const name = document.createElement("td");
       name.innerText = item.name;
       const category = document.createElement("td");
