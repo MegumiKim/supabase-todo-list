@@ -41,9 +41,16 @@ export const makeList = async () => {
       editTd.append(editBtn);
       row.append(id, name, category, description, status, deleteTd, editTd);
       tbody.prepend(row);
+
+      total();
     });
   } catch (e) {
     console.warn(e);
     tbody.innerHTML = "Fail to fetch data";
   }
+};
+
+const total = async () => {
+  const count = await API.totalCount();
+  document.getElementById("total").innerText = count;
 };
